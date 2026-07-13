@@ -1,0 +1,67 @@
+# Build directories
+/build/
+/bin/
+/out/
+/obj/
+
+# Object and binary files
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+*.out
+a.out
+
+# Debug and crash dumps
+*.dSYM/
+*.stackdump
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.user
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# Tags and indexes
+tags
+cscope.*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+
+# Node
+node_modules/
+
+# Swap / lock files
+*.swp
+*.lock
